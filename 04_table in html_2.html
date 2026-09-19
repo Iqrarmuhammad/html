@@ -1,0 +1,154 @@
+<!-- rowspan and colspan (column span) attributes
+ 
+    rowspan attributes is used to marge cells in one row.
+    colspan attributes is used to marge cells in one column. 
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Table in html 2</title>
+</head>
+<body>
+
+    <h1>rowspan and colspan</h1>
+
+    <!-- rowspan attribute -->
+
+    <table border="1">
+        <caption>rowspan</caption>
+        <tr>
+          <th>Name</th>
+          <th>Subject</th>
+          <th>Marks</th>
+        </tr>
+        <tr>
+          <td rowspan="3">Mark Smith</td>
+          <td>English</td>
+          <td>67</td>
+        </tr>
+        <tr>
+          <td>Maths</td>
+          <td>82</td>
+        </tr>
+        <tr>
+          <td>Science</td>
+          <td>91</td>
+        </tr>
+      </table>
+
+<hr>
+
+        <!-- <table border="1">
+            <caption>colspan (column span)</caption>
+            <tr>
+                <th>Name</th>
+                <th>Subject </th>
+                <th>Marks</th>
+            </tr>   
+
+            <tr>
+                <td>Iqrar</td>
+                <td>AI</td>
+                <td>88</td>
+            </tr>
+
+            <tr>
+                
+                <td>Data Base</td>
+                <td>86</td>
+
+            </tr>
+
+            <tr>
+                
+                <td>DLD</td>
+                <td>90</td>
+
+            </tr>
+        
+        </table> -->
+<!--  colspan (column span) -->
+      <table border="1">
+        <caption>colspan (column span)</caption>
+        <tr>
+            <th>Serial Number</th>
+            <th>Student name</th>
+            <th>Department</th>           
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Iqrar</td>
+            <td>CS</td>
+
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Jalwa</td>
+            <td>English</td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Sawaira Sana</td>
+            <td>CS</td>
+        </tr>
+        
+        <tr>
+        
+            <td colspan="2" >Total Student </td>
+            <td>CS and English Department </td>
+        </tr>   
+      </table>
+
+<hr>
+
+<!-- rowspan and colspan (column span) combine  -->
+
+      
+      <table  border="1" >
+        <caption>rowspan and colspan (column span) combine</caption>
+        <tr style="background-color: blueviolet;">
+            <th>Serial Number</th>
+            <th>Student name</th>
+            <th>Department</th>           
+            <th>University name</th>           
+        </tr>
+
+        <tr>
+            
+            <td>1</td>
+            <td>Iqrar</td>
+            <td>CS</td>
+            <td rowspan="4">University of swabi</td>
+
+
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Jalwa</td>
+            <td>English</td>
+        </tr>
+        
+        <tr>
+            <td>3</td>
+            <td>Sawaira Sana</td>
+            <td>CS</td>
+        </tr>
+        
+        <tr>
+
+            <td colspan="2" >Total Student </td>
+            <td>CS and English Department </td>
+
+        </tr>   
+      </table>
+
+    
+</body>
+
+
+</html>
